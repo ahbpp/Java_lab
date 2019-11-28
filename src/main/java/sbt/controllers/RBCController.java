@@ -4,7 +4,7 @@ package sbt.controllers;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.*;
-import sbt.services.RBCService;
+import sbt.services.WeatherService;
 
 
 @RestController
@@ -12,10 +12,10 @@ import sbt.services.RBCService;
 public class RBCController {
 
     @Autowired
-    private RBCService service;
+    private WeatherService service;
 
     @RequestMapping(value = "/rbc", method = RequestMethod.GET)
     public String index() {
-        return "dollar_rate " + service.getMaxRateForPeriod(30);
+        return "" + service.getMaxTemperatureFromResponse();
     }
 }
