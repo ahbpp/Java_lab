@@ -2,22 +2,34 @@ package sbt;
 
 import org.junit.Before;
 import org.junit.Test;
+import org.junit.runner.RunWith;
 import org.mockito.Mock;
 import org.mockito.Mockito;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.junit4.SpringRunner;
 import sbt.services.RBCService;
+import sbt.responsers.ResponserToRBC;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 
 import static org.junit.Assert.*;
 
-//@RunWith(MockitoJUnitRunner.class)
+@RunWith(SpringRunner.class)
+@SpringBootTest
 public class RBCServiceTest {
+
+    @Autowired
+    ResponserToRBC responserToRBC;
+    @Autowired
+    RBCService service;
+
 
 
 
     @Mock
-    private RBCService rbc_mock = Mockito.mock(RBCService.class);
+    private ResponserToRBC responserToRBC_mock = Mockito.mock(ResponserToRBC.class);
 
     String data =
             "USD000000TOD,2019-09-13,64.2225,64.7175,64.125,64.2725,725046000,64.3306\n" +
@@ -28,12 +40,12 @@ public class RBCServiceTest {
 
     @Before
     public void setUp() throws Exception {
-        Mockito.when(rbc_mock.getResponse(30)).thenReturn(data);
+        Mockito.when(responserToRBC_mock.getResponse(30)).thenReturn(data);
     }
 
     @Test
     public void getResponse() {
-        String response = rbc_mock.getResponse(30);
+        String response = responserToRBC.getResponse(30);
         System.out.println(response);
     }
 
@@ -54,6 +66,12 @@ public class RBCServiceTest {
         }
         RBCService service = new RBCService();
         assertEquals(49, service.getMaxFromArray(testArray), 0.01);
+    }
+
+    @Test
+    public void getMaxRateForPeriod() {
+        Double res = service.getMaxRateForPeriod(30, responserToRBC_mock);
+        assertEquals(64.3306, res, 0.01);
     }
 
 }

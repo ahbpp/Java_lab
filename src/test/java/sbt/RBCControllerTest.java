@@ -12,6 +12,7 @@ import org.springframework.boot.web.server.LocalServerPort;
 import org.springframework.test.context.junit4.SpringRunner;
 import sbt.controllers.RBCController;
 import sbt.services.RBCService;
+import sbt.responsers.ResponserToRBC;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -31,13 +32,16 @@ public class RBCControllerTest {
     @Autowired
     private RBCController controller;
 
+    @Autowired
+    private ResponserToRBC responserToRBC;
+
     @Mock
     private RBCService rbc_mock = Mockito.mock(RBCService.class);
 
 
     @Before
     public void setUp() throws Exception {
-        Mockito.when(rbc_mock.getMaxRateForPeriod(30)).thenReturn(data);
+        Mockito.when(rbc_mock.getMaxRateForPeriod(30, responserToRBC)).thenReturn(data);
     }
 
     @Test

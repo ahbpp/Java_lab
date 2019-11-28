@@ -1,16 +1,15 @@
 package sbt.services;
 
 
-import org.aspectj.lang.annotation.Before;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.client.RestTemplate;
 import sbt.jpa_data.EntityRate;
 import sbt.jpa_data.RateCrudRepository;
+import sbt.responsers.ResponserToRBC;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
@@ -19,7 +18,7 @@ import java.util.List;
 import java.util.Optional;
 
 
-@SpringBootApplication
+@Component
 public class RBCService {
 
     DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
@@ -31,6 +30,7 @@ public class RBCService {
 
     @Autowired private RestTemplate restTemplate;
     @Autowired private RateCrudRepository rateCrudRepository;
+    @Autowired private ResponserToRBC responserToRBC;
 
     @Transactional
     public void saveRate(Double rate) {
@@ -39,14 +39,18 @@ public class RBCService {
     }
 
     @Transactional
-    public double getMaxRateForPeriod(int lastdays) {
+    public double getMaxRateForPeriod(int lastdays, ResponserToRBC responserToRBC) {
         Optional<EntityRate> base_result = getTodayRate();
         if (base_result.isPresent()) {
             return base_result.map(EntityRate::getRate).get().doubleValue();
         }
-        double result = getMaxFromArray(parseResponse(getResponse(lastdays)));
+        double result = getMaxFromArray(getRateForPeriod(lastdays, responserToRBC));
         saveRate(result);
         return result;
+    }
+
+    public ArrayList<Double> getRateForPeriod(int lastdays, ResponserToRBC responserToRBC) {
+        return parseResponse(responserToRBC.getResponse(lastdays));
     }
 
     public String getResponse(int lastdays) {
