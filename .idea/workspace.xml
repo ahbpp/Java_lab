@@ -2,14 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4600f613-bb31-4f9f-9356-d7f863f986be" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/sbt/controllers/Viewer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sbt/responsers/ResponserToWheather.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sbt/services/PredictService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sbt/services/WeatherService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sbt/utils/MSR.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sbt/utils/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/sbt/services/ViewerServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/sbt/services/WeatherServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/sbt/utils/MSRTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/sbt/utils/UtilsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gs-spring-boot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gs-spring-boot.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sbt/controllers/RBCController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sbt/controllers/RBCController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sbt/jpa_data/EntityRate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sbt/jpa_data/EntityRate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sbt/jpa_data/RateCrudRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sbt/jpa_data/RateCrudRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sbt/responsers/ResponserToRBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sbt/responsers/ResponserToRBC.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sbt/services/RBCService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sbt/services/RBCService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/sbt/RBCControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sbt/RBCControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/sbt/RBCServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sbt/RBCServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sbt/RBCController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sbt/RBCService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/gs-spring-boot.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sbt/controllers/RBCController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sbt/controllers/RBCController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sbt/jpa_data/EntityRate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sbt/jpa_data/EntityRate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sbt/jpa_data/RateCrudRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sbt/jpa_data/RateCrudRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sbt/responsers/ResponserToRBC.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sbt/responsers/ResponserToRBC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sbt/services/RBCService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sbt/services/RBCService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/sbt/RBCControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/sbt/RBCControllerTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/sbt/RBCServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/sbt/RBCServiceTest.class" afterDir="false" />
     </list>
@@ -29,17 +48,43 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/sbt/jpa_data/EntityRate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+            <state relative-caret-position="137">
+              <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#244#245#0" expanded="true" />
+                <element signature="e#279#280#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/sbt/jpa_data/RateCrudRepository.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sbt/services/WeatherService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="21" selection-start-column="21" selection-end-column="21" />
+            <state relative-caret-position="392">
+              <caret line="73" column="29" selection-start-line="73" selection-start-column="29" selection-end-line="73" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sbt/services/PredictService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="268">
+              <caret line="29" column="56" selection-start-line="29" selection-start-column="56" selection-end-line="29" selection-end-column="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sbt/services/RBCService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="61" selection-start-line="61" selection-end-line="61" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,27 +93,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/sbt/services/RBCService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sbt/controllers/RBCController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="47" column="25" lean-forward="true" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
+            <state relative-caret-position="85">
+              <caret line="41" column="49" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sbt/controllers/Viewer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sbt/jpa_data/RateCrudRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#889#890#0" expanded="true" />
-                <element signature="e#930#931#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/sbt/responsers/ResponserToRBC.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="60">
+              <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -76,8 +134,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/sbt/RBCServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1070">
-              <caret line="72" column="49" selection-start-line="72" selection-start-column="49" selection-end-line="72" selection-end-column="49" />
+            <state relative-caret-position="250">
+              <caret line="62" column="39" selection-start-line="62" selection-start-column="39" selection-end-line="62" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,46 +144,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/sbt/Application.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sbt/responsers/ResponserToWheather.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#228#229#0" expanded="true" />
-                <element signature="e#290#291#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="23" column="35" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/sbt/controllers/RBCController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="21" column="75" selection-start-line="21" selection-start-column="75" selection-end-line="21" selection-end-column="75" />
-              <folding>
-                <element signature="e#418#419#0" expanded="true" />
-                <element signature="e#489#490#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/sbt/RBCControllerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="43" column="60" selection-start-line="43" selection-start-column="60" selection-end-line="43" selection-end-column="60" />
+            <state relative-caret-position="195">
+              <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -138,6 +160,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit5 Test Class" />
         <option value="JUnit4 Test Class" />
         <option value="Class" />
       </list>
@@ -169,19 +192,33 @@
         <option value="$PROJECT_DIR$/src/test/java/sbt/jpa_data/Repository.java" />
         <option value="$PROJECT_DIR$/src/test/java/sbt/jpa_data/RateCrudRepository.java" />
         <option value="$PROJECT_DIR$/src/test/java/sbt/Memory.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/sbt/jpa_data/RateCrudRepository.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/rbc.html" />
-        <option value="$PROJECT_DIR$/src/main/java/sbt/jpa_data/EntityRate.java" />
         <option value="$PROJECT_DIR$/src/main/java/sbt/Application.java" />
         <option value="$PROJECT_DIR$/src/main/java/sbt/RBCController.java" />
         <option value="$PROJECT_DIR$/src/main/java/sbt/RBCService.java" />
         <option value="$PROJECT_DIR$/src/main/java/sbt/services/ResponserToRBC.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sbt/controllers/RBCController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sbt/responsers/ResponserToWheather.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sbt/utils/ArrayUtils.java" />
+        <option value="$PROJECT_DIR$/src/test/java/sbt/utils/ArrayUtilsTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/sbt/RBCControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sbt/utils/Utils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sbt/utils/MSR.java" />
+        <option value="$PROJECT_DIR$/src/test/java/sbt/utils/UtilsTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/sbt/utils/MSRTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sbt/services/WeatherService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/sbt/services/PredictServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/sbt/services/WeatherServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sbt/responsers/ResponserToRBC.java" />
         <option value="$PROJECT_DIR$/src/test/java/sbt/RBCServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/sbt/jpa_data/EntityRate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sbt/jpa_data/RateCrudRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/sbt/services/RBCService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sbt/services/PredictService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sbt/controllers/Predict.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sbt/controllers/Viewer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sbt/controllers/RBCController.java" />
       </list>
     </option>
   </component>
@@ -208,18 +245,16 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="width" value="714" />
     <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Production'; set:Production; class com.intellij.psi.search.scope.ProjectProductionScope">
           <expand>
@@ -277,76 +312,112 @@
               <item name="gs-spring-boot" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="gs-spring-boot" type="2674bda8:ScopeViewTreeModel$GroupNode" />
             </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
             <path>
-              <item name="gs-spring-boot" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="gs-spring-boot" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="gs-spring-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ru.sbt.prac.lab-master" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="gs-spring-boot" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="gs-spring-boot" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="gs-spring-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ru.sbt.prac.lab-master" type="462c0819:PsiDirectoryNode" />
+              <item name="gradle" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="gs-spring-boot" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="gs-spring-boot" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="gs-spring-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ru.sbt.prac.lab-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="gs-spring-boot" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="gs-spring-boot" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="sbt" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="gs-spring-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ru.sbt.prac.lab-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="gs-spring-boot" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="gs-spring-boot" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="sbt" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="services" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="gs-spring-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ru.sbt.prac.lab-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="gs-spring-boot" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="gs-spring-boot" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="gs-spring-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ru.sbt.prac.lab-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sbt" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="gs-spring-boot" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="gs-spring-boot" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="templates" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="gs-spring-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ru.sbt.prac.lab-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sbt" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="gs-spring-boot" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="gs-spring-boot" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="gs-spring-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ru.sbt.prac.lab-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sbt" type="462c0819:PsiDirectoryNode" />
+              <item name="responsers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="gs-spring-boot" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="gs-spring-boot" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="gs-spring-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ru.sbt.prac.lab-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sbt" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="gs-spring-boot" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="gs-spring-boot" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="sbt" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="gs-spring-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ru.sbt.prac.lab-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sbt" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gs-spring-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ru.sbt.prac.lab-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gs-spring-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ru.sbt.prac.lab-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gs-spring-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ru.sbt.prac.lab-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gs-spring-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ru.sbt.prac.lab-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sbt" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -364,6 +435,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -373,6 +445,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="sbt.services" />
+      <recent name="sbt.utils" />
       <recent name="hello" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -382,6 +456,8 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/sbt/services" />
+      <recent name="$PROJECT_DIR$/src/main/java/sbt" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
@@ -397,34 +473,34 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RBCServiceTest">
-    <configuration name="RBCControllerTest.indexSimpleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.Application">
+    <configuration name="MSRTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gs-spring-boot" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sbt.controllers.*" />
+          <option name="PATTERN" value="sbt.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="sbt" />
-      <option name="MAIN_CLASS_NAME" value="sbt.RBCControllerTest" />
-      <option name="METHOD_NAME" value="indexSimpleTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="sbt.utils" />
+      <option name="MAIN_CLASS_NAME" value="sbt.utils.MSRTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RBCServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MSRTest.fitSquareTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gs-spring-boot" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sbt.*" />
+          <option name="PATTERN" value="sbt.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="sbt" />
-      <option name="MAIN_CLASS_NAME" value="sbt.RBCServiceTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="sbt.utils" />
+      <option name="MAIN_CLASS_NAME" value="sbt.utils.MSRTest" />
+      <option name="METHOD_NAME" value="fitSquareTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -445,18 +521,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RBCServiceTest.getResponse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UtilsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gs-spring-boot" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sbt.*" />
+          <option name="PATTERN" value="sbt.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="sbt" />
-      <option name="MAIN_CLASS_NAME" value="sbt.RBCServiceTest" />
-      <option name="METHOD_NAME" value="getResponse" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="sbt.utils" />
+      <option name="MAIN_CLASS_NAME" value="sbt.utils.UtilsTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -465,7 +540,7 @@
       <module name="gs-spring-boot" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sbt.controllers.*" />
+          <option name="PATTERN" value="sbt.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -483,11 +558,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RBCServiceTest" />
-        <item itemvalue="JUnit.RBCServiceTest.getMaxRateForPeriod" />
-        <item itemvalue="JUnit.RBCServiceTest.getResponse" />
         <item itemvalue="Spring Boot.Application" />
-        <item itemvalue="JUnit.RBCControllerTest.indexSimpleTest" />
+        <item itemvalue="JUnit.RBCServiceTest.getMaxRateForPeriod" />
+        <item itemvalue="JUnit.MSRTest.fitSquareTest" />
+        <item itemvalue="JUnit.MSRTest" />
+        <item itemvalue="JUnit.UtilsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -505,49 +580,52 @@
       <workItem from="1573678997133" duration="5254000" />
       <workItem from="1573721181375" duration="10917000" />
       <workItem from="1574879890004" duration="949000" />
+      <workItem from="1574956687637" duration="5779000" />
+      <workItem from="1575220058439" duration="5092000" />
+      <workItem from="1575538761465" duration="9008000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RBCServiceTest_getResponse - 2019.11.28 at 16h 27m 27s.xml">
-      <configuration name="RBCServiceTest.getResponse" configurationId="JUnit" />
+    <history-entry file="MSRTest_fitSquareTest - 2019.12.01 at 21h 14m 07s.xml">
+      <configuration name="MSRTest.fitSquareTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RBCServiceTest_getResponse - 2019.11.28 at 16h 28m 16s.xml">
-      <configuration name="RBCServiceTest.getResponse" configurationId="JUnit" />
+    <history-entry file="MSRTest_fitSquareTest - 2019.12.01 at 21h 39m 02s.xml">
+      <configuration name="MSRTest.fitSquareTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RBCServiceTest_getMaxRateForPeriod - 2019.11.28 at 16h 31m 07s.xml">
+    <history-entry file="RBCServiceTest_getMaxRateForPeriod - 2019.12.05 at 14h 59m 27s.xml">
       <configuration name="RBCServiceTest.getMaxRateForPeriod" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RBCServiceTest_getMaxRateForPeriod - 2019.11.28 at 16h 36m 18s.xml">
+    <history-entry file="RBCServiceTest_getMaxRateForPeriod - 2019.12.05 at 15h 00m 51s.xml">
       <configuration name="RBCServiceTest.getMaxRateForPeriod" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RBCServiceTest_getResponse - 2019.11.28 at 16h 44m 18s.xml">
-      <configuration name="RBCServiceTest.getResponse" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RBCServiceTest_getMaxRateForPeriod - 2019.11.28 at 16h 45m 38s.xml">
+    <history-entry file="RBCServiceTest_getMaxRateForPeriod - 2019.12.05 at 15h 03m 17s.xml">
       <configuration name="RBCServiceTest.getMaxRateForPeriod" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RBCServiceTest_getMaxRateForPeriod - 2019.11.28 at 16h 49m 17s.xml">
+    <history-entry file="RBCServiceTest_getMaxRateForPeriod - 2019.12.05 at 15h 06m 02s.xml">
       <configuration name="RBCServiceTest.getMaxRateForPeriod" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RBCServiceTest - 2019.11.28 at 16h 49m 17s.xml">
-      <configuration name="RBCServiceTest" configurationId="JUnit" />
+    <history-entry file="RBCServiceTest_getMaxRateForPeriod - 2019.12.05 at 15h 09m 48s.xml">
+      <configuration name="RBCServiceTest.getMaxRateForPeriod" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RBCServiceTest - 2019.11.28 at 17h 21m 09s.xml">
-      <configuration name="RBCServiceTest" configurationId="JUnit" />
+    <history-entry file="RBCServiceTest_getMaxRateForPeriod - 2019.12.05 at 15h 11m 13s.xml">
+      <configuration name="RBCServiceTest.getMaxRateForPeriod" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RBCServiceTest - 2019.11.28 at 17h 23m 37s.xml">
-      <configuration name="RBCServiceTest" configurationId="JUnit" />
+    <history-entry file="RBCServiceTest_getMaxRateForPeriod - 2019.12.05 at 15h 13m 05s.xml">
+      <configuration name="RBCServiceTest.getMaxRateForPeriod" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RBCServiceTest_getMaxRateForPeriod - 2019.12.05 at 15h 13m 29s.xml">
+      <configuration name="RBCServiceTest.getMaxRateForPeriod" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27496000" />
+    <option name="totallyTimeSpent" value="48418000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26752505" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -557,13 +635,13 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.091566265" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.46144578" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32891566" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.41807228" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32891566" />
@@ -614,13 +692,6 @@
     <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-start-column="22" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mvnw">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -638,37 +709,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sbt/jpa_data/RateCrudRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/sbt/Configuration.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/sbt/responsers.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/sbt/utils/MSR.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        <state relative-caret-position="285">
+          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#827#828#0" expanded="true" />
+            <element signature="e#859#860#0" expanded="true" />
+            <element signature="e#887#888#0" expanded="true" />
+            <element signature="e#911#912#0" expanded="true" />
+            <element signature="e#939#940#0" expanded="true" />
+            <element signature="e#963#964#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sbt/jpa_data/EntityRate.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/sbt/utils/UtilsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+        <state relative-caret-position="585">
+          <caret line="50" column="42" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="23" column="35" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="35" />
+        <state relative-caret-position="225">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-end-line="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sbt/Configuration.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/sbt/services/WeatherServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="615">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/sbt/services/ViewerServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
@@ -684,34 +767,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sbt/controllers/RBCController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" column="75" selection-start-line="21" selection-start-column="75" selection-end-line="21" selection-end-column="75" />
-          <folding>
-            <element signature="e#418#419#0" expanded="true" />
-            <element signature="e#489#490#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/sbt/RBCControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="43" column="60" selection-start-line="43" selection-start-column="60" selection-end-line="43" selection-end-column="60" />
+        <state relative-caret-position="697">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sbt/responsers.java">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/sbt/utils/MSRTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sbt/utils/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1378#1379#0" expanded="true" />
+            <element signature="e#1418#1419#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sbt/responsers/ResponserToRBC.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="285">
+          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -720,8 +808,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/sbt/RBCServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1070">
-          <caret line="72" column="49" selection-start-line="72" selection-start-column="49" selection-end-line="72" selection-end-column="49" />
+        <state relative-caret-position="250">
+          <caret line="62" column="39" selection-start-line="62" selection-start-column="39" selection-end-line="62" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sbt/services/WeatherService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="73" column="29" selection-start-line="73" selection-start-column="29" selection-end-line="73" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sbt/responsers/ResponserToWheather.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -730,13 +835,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sbt/services/RBCService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="47" column="25" lean-forward="true" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
+        <state relative-caret-position="276">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#889#890#0" expanded="true" />
-            <element signature="e#930#931#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sbt/services/PredictService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="29" column="56" selection-start-line="29" selection-start-column="56" selection-end-line="29" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sbt/jpa_data/RateCrudRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sbt/jpa_data/EntityRate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#244#245#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sbt/controllers/Viewer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sbt/controllers/RBCController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="41" column="49" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
         </state>
       </provider>
     </entry>

@@ -32,7 +32,7 @@ public class RBCServiceTest {
     private ResponserToRBC responserToRBC_mock = Mockito.mock(ResponserToRBC.class);
 
     String data =
-            "USD000000TOD,2019-09-13,64.2225,64.7175,64.125,64.2725,725046000,64.3306\n" +
+            "USD000000TOD,2019-09-13,70.2225,64.7175,64.125,64.2725,725046000,64.3306\n" +
             "USD000000TOD,2019-09-16,63.835,64.1675,63.57,64,1367191000,63.9049\n" +
             "USD000000TOD,2019-09-17,64.03,64.44,63.97,64.3575,725278000,64.184\n";
 
@@ -56,16 +56,6 @@ public class RBCServiceTest {
         ArrayList<Double> expected = new ArrayList<>(Arrays.asList(64.3306, 63.9049, 64.184));
         assertEquals(expected, res);
 
-    }
-
-    @Test
-    public void getMaxFromArray() {
-        ArrayList<Double> testArray = new ArrayList<>();
-        for (double d = 0; d < 50; d += 1) {
-            testArray.add(d);
-        }
-        RBCService service = new RBCService();
-        assertEquals(49, service.getMaxFromArray(testArray), 0.01);
     }
 
     @Test

@@ -49,8 +49,6 @@ public class RBCControllerTest {
         assertThat(controller).isNotNull();
     }
 
-
-
     @Test
     public void indexSimpleTest() {
 //        System.out.println(this.restTemplate.getForObject("http://localhost:" + port + "rbc", String.class).contains("dollar_rate"));

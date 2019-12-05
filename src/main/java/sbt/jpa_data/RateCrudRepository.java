@@ -9,7 +9,7 @@ import java.util.Optional;
 
 @Repository
 public interface RateCrudRepository extends CrudRepository<EntityRate, Long> {
-    Optional<EntityRate> findByDate(String date);
+    Optional<EntityRate> findByDateAndDays(String date, int days);
     void delete(EntityRate entity);
     EntityRate save(EntityRate rate);
 }
