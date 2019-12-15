@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4600f613-bb31-4f9f-9356-d7f863f986be" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServiceTest.postman_collection.json" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceTest.postman_collection.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/sbt/services/WeatherServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sbt/services/WeatherServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/sbt/services/WeatherServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/sbt/services/WeatherServiceTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,31 +18,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/sbt/controllers/RBCController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sbt/services/WeatherService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="41" column="49" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/sbt/controllers/Viewer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/sbt/jpa_data/RateCrudRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="515">
+              <caret line="63" column="44" selection-start-line="63" selection-start-column="44" selection-end-line="63" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -69,19 +45,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/sbt/utils/UtilsTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/sbt/utils/MSRTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="50" column="42" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
+            <state relative-caret-position="435">
+              <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/sbt/RBCControllerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="489">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/sbt/services/WeatherServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-210">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="-53">
+              <caret line="56" column="37" lean-forward="true" selection-start-line="56" selection-start-column="37" selection-end-line="56" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -89,8 +77,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/sbt/RBCServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="62" column="39" selection-start-line="62" selection-start-column="39" selection-end-line="62" selection-end-column="39" />
+            <state relative-caret-position="214">
+              <caret line="42" column="8" lean-forward="true" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="75" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,8 +89,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/sbt/responsers/ResponserToWheather.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+            <state relative-caret-position="180">
+              <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -110,7 +98,19 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sbt/responsers/ResponserToRBC.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="201">
+              <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ServiceTest.postman_collection.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="141">
@@ -180,10 +180,10 @@
         <option value="$PROJECT_DIR$/src/main/java/sbt/controllers/Predict.java" />
         <option value="$PROJECT_DIR$/src/main/java/sbt/controllers/Viewer.java" />
         <option value="$PROJECT_DIR$/src/main/java/sbt/controllers/RBCController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sbt/responsers/ResponserToWheather.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/sbt/services/WeatherServiceTest.java" />
         <option value="$PROJECT_DIR$/ServiceTest.postman_collection.json" />
+        <option value="$PROJECT_DIR$/src/main/java/sbt/responsers/ResponserToWheather.java" />
+        <option value="$PROJECT_DIR$/src/test/java/sbt/services/WeatherServiceTest.java" />
       </list>
     </option>
   </component>
@@ -210,7 +210,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="42" />
     <option name="y" value="23" />
     <option name="width" value="1440" />
@@ -264,6 +264,24 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="sbt" type="462c0819:PsiDirectoryNode" />
               <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gs-spring-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ru.sbt.prac.lab-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sbt" type="462c0819:PsiDirectoryNode" />
+              <item name="responsers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gs-spring-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ru.sbt.prac.lab-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sbt" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gs-spring-boot" type="b2602c69:ProjectViewProjectNode" />
@@ -537,29 +555,11 @@
       <workItem from="1575220058439" duration="5092000" />
       <workItem from="1575538761465" duration="10317000" />
       <workItem from="1576152711166" duration="516000" />
-      <workItem from="1576418145610" duration="1858000" />
+      <workItem from="1576418145610" duration="3594000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RBCServiceTest_getMaxRateForPeriod - 2019.12.05 at 15h 00m 51s.xml">
-      <configuration name="RBCServiceTest.getMaxRateForPeriod" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RBCServiceTest_getMaxRateForPeriod - 2019.12.05 at 15h 03m 17s.xml">
-      <configuration name="RBCServiceTest.getMaxRateForPeriod" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RBCServiceTest_getMaxRateForPeriod - 2019.12.05 at 15h 06m 02s.xml">
-      <configuration name="RBCServiceTest.getMaxRateForPeriod" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RBCServiceTest_getMaxRateForPeriod - 2019.12.05 at 15h 09m 48s.xml">
-      <configuration name="RBCServiceTest.getMaxRateForPeriod" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RBCServiceTest_getMaxRateForPeriod - 2019.12.05 at 15h 11m 13s.xml">
-      <configuration name="RBCServiceTest.getMaxRateForPeriod" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RBCServiceTest_getMaxRateForPeriod - 2019.12.05 at 15h 13m 05s.xml">
-      <configuration name="RBCServiceTest.getMaxRateForPeriod" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RBCServiceTest_getMaxRateForPeriod - 2019.12.05 at 15h 13m 29s.xml">
       <configuration name="RBCServiceTest.getMaxRateForPeriod" configurationId="JUnit" />
     </history-entry>
@@ -572,9 +572,27 @@
     <history-entry file="WeatherServiceTest - 2019.12.15 at 17h 31m 24s.xml">
       <configuration name="WeatherServiceTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="WeatherServiceTest - 2019.12.15 at 21h 25m 25s.xml">
+      <configuration name="WeatherServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WeatherServiceTest - 2019.12.15 at 21h 31m 37s.xml">
+      <configuration name="WeatherServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WeatherServiceTest - 2019.12.15 at 21h 34m 10s.xml">
+      <configuration name="WeatherServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WeatherServiceTest - 2019.12.15 at 21h 42m 00s.xml">
+      <configuration name="WeatherServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WeatherServiceTest - 2019.12.15 at 21h 43m 11s.xml">
+      <configuration name="WeatherServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WeatherServiceTest - 2019.12.15 at 21h 49m 47s.xml">
+      <configuration name="WeatherServiceTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52101000" />
+    <option name="totallyTimeSpent" value="53837000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -586,10 +604,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="42" y="23" width="1440" height="811" extended-state="0" />
-    <editor active="true" />
+    <frame x="-6" y="23" width="1440" height="811" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2746781" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2746781" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -599,23 +616,24 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.49652296" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.49652296" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32777777" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32777777" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.18497914" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.2433936" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32891566" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32916668" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="right" id="Coverage" sideWeight="0.50276244" side_tool="true" weight="0.3297568" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24964234" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.3297568" />
+      <window_info anchor="right" id="Maven" order="3" sideWeight="0.49723756" weight="0.3297568" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -630,6 +648,11 @@
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/gs_spring_boot$WeatherServiceTest.ic" NAME="WeatherServiceTest Coverage Results" MODIFIED="1576434828790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>sbt.services.*</FILTER>
+    </SUITE>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/target/test-classes/hello/RBKServiceTest.class" />
@@ -710,23 +733,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/sbt/RBCControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/sbt/utils/MSRTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sbt/utils/Utils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -735,16 +741,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#1378#1379#0" expanded="true" />
             <element signature="e#1418#1419#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sbt/responsers/ResponserToRBC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -758,13 +754,6 @@
             <element signature="e#244#245#0" expanded="true" />
             <element signature="e#279#280#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sbt/services/WeatherService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="73" column="29" selection-start-line="73" selection-start-column="29" selection-end-line="73" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -805,51 +794,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/sbt/RBCServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="62" column="39" selection-start-line="62" selection-start-column="39" selection-end-line="62" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sbt/responsers/ResponserToWheather.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sbt/controllers/RBCController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="41" column="49" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/sbt/services/WeatherServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-210">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/sbt/services/ViewerServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
@@ -864,6 +812,81 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
           <caret line="107" column="30" lean-forward="true" selection-start-line="107" selection-start-column="30" selection-end-line="107" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sbt/services/WeatherService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="63" column="44" selection-start-line="63" selection-start-column="44" selection-end-line="63" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sbt/responsers/ResponserToWheather.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sbt/responsers/ResponserToRBC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/sbt/utils/MSRTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/sbt/RBCServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="42" column="8" lean-forward="true" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/sbt/RBCControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/sbt/services/ViewerServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/sbt/services/WeatherServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-53">
+          <caret line="56" column="37" lean-forward="true" selection-start-line="56" selection-start-column="37" selection-end-line="56" selection-end-column="37" />
         </state>
       </provider>
     </entry>
