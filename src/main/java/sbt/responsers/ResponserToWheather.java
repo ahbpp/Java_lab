@@ -8,7 +8,7 @@ import org.springframework.web.client.RestTemplate;
 
 @Service
 public class ResponserToWheather {
-    final String TOKEN = "ae61464104921456935eb914baa3abe6";
+    final String TOKEN = "c27fb993535ea9bcd42a6a2c46d506bd";
 
     @Autowired
     private RestTemplate restTemplateWhether;

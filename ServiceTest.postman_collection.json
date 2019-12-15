@@ -1,0 +1,187 @@
+{
+	"info": {
+		"_postman_id": "f9109b2f-75dd-4114-bfba-22716809a79f",
+		"name": "ServiceTest",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "RBC",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "28b235a4-2323-42a4-b1b2-28d948fef7b0",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Value exists\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.value);",
+							"});",
+							"",
+							"pm.test(\"Response time is less than 5000ms\", function () {",
+							"    pm.expect(pm.response.responseTime).to.be.below(5000);",
+							"});",
+							"",
+							"pm.test(\"Dollar rate is below 100\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.value).to.be.below(100);",
+							"});",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8110/rbc?days=100",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8110",
+					"path": [
+						"rbc"
+					],
+					"query": [
+						{
+							"key": "days",
+							"value": "100"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Weather",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "a6a2646c-8601-467b-97da-82d6963b5fa4",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Response time is less than 5000ms\", function () {",
+							"    pm.expect(pm.response.responseTime).to.be.below(5000);",
+							"});",
+							"",
+							"",
+							"pm.test(\"Value exists\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.value);",
+							"});",
+							"",
+							"pm.test(\"Temperature is greater -50\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.value).to.be.above(-50);",
+							"});",
+							"",
+							"pm.test(\"Temperature is greater +100\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.value).to.be.below(100);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8110/weather?date='2019-10-17'",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8110",
+					"path": [
+						"weather"
+					],
+					"query": [
+						{
+							"key": "date",
+							"value": "'2019-10-17'"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Predict",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "4d0b5345-f1f0-4db7-9eaa-fde58c6c77d2",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Value exists\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.value);",
+							"});",
+							"",
+							"pm.test(\"Response time is less than 20000ms\", function () {",
+							"    pm.expect(pm.response.responseTime).to.be.below(20000);",
+							"});",
+							"",
+							"",
+							"// pm.test(\"Number is Double\", function () {",
+							"//     var jsonData = pm.response.json();",
+							"//     pm.expect(jsonData.value).to.be.a(\"object\")",
+							"// });",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8110/predict?days=30",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8110",
+					"path": [
+						"predict"
+					],
+					"query": [
+						{
+							"key": "days",
+							"value": "30"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
