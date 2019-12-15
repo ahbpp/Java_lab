@@ -10,11 +10,7 @@ import java.util.Date;
 @Table(name="Dollar")
 public class EntityRate {
 
-    public DateFormat getDateFormater() {
-        return dateFormater;
-    }
 
-    private final DateFormat dateFormater = new SimpleDateFormat("yyyy/MM/dd");
     @Id
     @GeneratedValue(strategy= GenerationType.AUTO)
     private Long id;
@@ -26,6 +22,7 @@ public class EntityRate {
 
     public EntityRate(Double rate, Date date, int days) {
         this.rate = rate;
+        DateFormat dateFormater = new SimpleDateFormat("yyyy/MM/dd");
         this.date = dateFormater.format(date);
         this.days = days;
     }

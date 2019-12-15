@@ -485,8 +485,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.sbt in gs-spring-boot">
-    <configuration name="RBCServiceTest.getMaxRateForPeriod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.RBCServiceTest">
+    <configuration name="RBCServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gs-spring-boot" />
       <extension name="coverage">
         <pattern>
@@ -496,8 +496,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="sbt" />
       <option name="MAIN_CLASS_NAME" value="sbt.RBCServiceTest" />
-      <option name="METHOD_NAME" value="getMaxRateForPeriod" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -569,11 +568,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RBCServiceTest" />
         <item itemvalue="JUnit.sbt in gs-spring-boot" />
         <item itemvalue="JUnit.WeatherServiceTest" />
         <item itemvalue="JUnit.WeatherServiceTest.parseResponse" />
         <item itemvalue="Spring Boot.Application" />
-        <item itemvalue="JUnit.RBCServiceTest.getMaxRateForPeriod" />
       </list>
     </recent_temporary>
   </component>
