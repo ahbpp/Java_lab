@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4600f613-bb31-4f9f-9356-d7f863f986be" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sbt/parser/Hourly.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sbt/parser/Hourly.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sbt/responsers/ResponserToWheather.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sbt/responsers/ResponserToWheather.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sbt/services/WeatherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sbt/services/WeatherService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sbt/parser/Hourly.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sbt/parser/Hourly.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sbt/responsers/ResponserToWheather.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sbt/responsers/ResponserToWheather.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sbt/services/WeatherService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sbt/services/WeatherService.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,7 +28,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/sbt/services/WeatherService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="675">
-              <caret line="62" column="44" selection-start-line="62" selection-start-column="44" selection-end-line="62" selection-end-column="44" />
+              <caret line="63" column="44" selection-start-line="63" selection-start-column="44" selection-end-line="63" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -36,7 +37,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -45,7 +46,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/sbt/services/ViewerServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -75,16 +76,20 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/sbt/services/WeatherServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="282">
-              <caret line="56" column="37" lean-forward="true" selection-start-line="56" selection-start-column="37" selection-end-line="56" selection-end-column="37" />
+              <caret line="56" column="37" selection-start-line="56" selection-start-column="37" selection-end-line="56" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/sbt/parser/Hourly.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="150">
+              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+              <folding>
+                <element signature="e#275#276#0" expanded="true" />
+                <element signature="e#307#308#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -93,7 +98,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/sbt/RBCServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="214">
-              <caret line="42" column="8" lean-forward="true" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="75" />
+              <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="75" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,11 +106,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/sbt/responsers/ResponserToWheather.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+              <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -189,8 +194,8 @@
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/ServiceTest.postman_collection.json" />
         <option value="$PROJECT_DIR$/src/test/java/sbt/services/WeatherServiceTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sbt/parser/Hourly.java" />
         <option value="$PROJECT_DIR$/src/main/java/sbt/responsers/ResponserToWheather.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sbt/parser/Hourly.java" />
       </list>
     </option>
   </component>
@@ -571,14 +576,11 @@
       <workItem from="1575220058439" duration="5092000" />
       <workItem from="1575538761465" duration="10317000" />
       <workItem from="1576152711166" duration="516000" />
-      <workItem from="1576418145610" duration="4013000" />
+      <workItem from="1576418145610" duration="4172000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="sbt_in_gs-spring-boot - 2019.12.15 at 17h 27m 41s.xml">
-      <configuration name="sbt in gs-spring-boot" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="WeatherServiceTest_parseResponse - 2019.12.15 at 17h 30m 06s.xml">
       <configuration name="WeatherServiceTest.parseResponse" configurationId="JUnit" />
     </history-entry>
@@ -606,9 +608,12 @@
     <history-entry file="WeatherServiceTest - 2019.12.15 at 21h 51m 12s.xml">
       <configuration name="WeatherServiceTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="WeatherServiceTest - 2019.12.15 at 22h 24m 47s.xml">
+      <configuration name="WeatherServiceTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54256000" />
+    <option name="totallyTimeSpent" value="54415000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -633,13 +638,13 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.49652296" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.49652296" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32777777" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32777777" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.2433936" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.53129345" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32891566" />
@@ -835,7 +840,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
@@ -859,7 +864,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/sbt/RBCServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
-          <caret line="42" column="8" lean-forward="true" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="75" />
+          <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="75" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -879,37 +884,41 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/sbt/services/ViewerServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/sbt/services/WeatherServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="282">
-          <caret line="56" column="37" lean-forward="true" selection-start-line="56" selection-start-column="37" selection-end-line="56" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sbt/parser/Hourly.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <caret line="56" column="37" selection-start-line="56" selection-start-column="37" selection-end-line="56" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sbt/services/WeatherService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
-          <caret line="62" column="44" selection-start-line="62" selection-start-column="44" selection-end-line="62" selection-end-column="44" />
+          <caret line="63" column="44" selection-start-line="63" selection-start-column="44" selection-end-line="63" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sbt/responsers/ResponserToWheather.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sbt/parser/Hourly.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding>
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -6,7 +6,10 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 public class Hourly {
     private Data data = null;
 
-    public Data getData() {
+    public Data getHourly() {
         return this.data;
+    }
+    public void setHourly(Data hourly){
+        this.data = hourly;
     }
 }

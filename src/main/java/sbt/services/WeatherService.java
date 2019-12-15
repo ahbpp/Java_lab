@@ -14,6 +14,7 @@ import sbt.responsers.ResponserToWheather;
 import sbt.utils.Utils;
 
 import java.io.IOException;
+import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 
@@ -38,7 +39,7 @@ public class WeatherService {
             ObjectMapper objectMapper = new ObjectMapper();
             try {
                 Hourly hourly = objectMapper.readValue(obj, Hourly.class);
-                Data data = hourly.getData();
+                Data data = hourly.getHourly();
                 for (MaxTempreture maxTempreture : data.getData()){
                     Double temperature = maxTempreture.getTemperature();
                     ans.add(temperature);
