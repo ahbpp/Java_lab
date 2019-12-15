@@ -10,11 +10,11 @@ import java.util.Date;
 @Table(name="Dollar")
 public class EntityRate {
 
-    public static DateFormat getDateFormater() {
+    public DateFormat getDateFormater() {
         return dateFormater;
     }
 
-    private final static DateFormat dateFormater = new SimpleDateFormat("yyyy/MM/dd");
+    private final DateFormat dateFormater = new SimpleDateFormat("yyyy/MM/dd");
     @Id
     @GeneratedValue(strategy= GenerationType.AUTO)
     private Long id;

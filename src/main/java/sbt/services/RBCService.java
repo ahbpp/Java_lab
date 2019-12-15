@@ -11,6 +11,8 @@ import sbt.jpa_data.RateCrudRepository;
 import sbt.responsers.ResponserToRBC;
 import sbt.utils.Utils;
 
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.*;
 
 
@@ -21,6 +23,8 @@ public class RBCService {
     public RestTemplate restTemplate() {
         return new RestTemplate();
     }
+
+    private final DateFormat dateFormater = new SimpleDateFormat("yyyy/MM/dd");
 
     @Autowired
     Utils utils;
@@ -53,7 +57,7 @@ public class RBCService {
 
     public Optional<Double> getTodayRate(int lastdays) {
         Date date = Calendar.getInstance().getTime();
-        Optional<EntityRate> result = rateCrudRepository.findByDateAndDays(EntityRate.getDateFormater().format(date), lastdays);
+        Optional<EntityRate> result = rateCrudRepository.findByDateAndDays(dateFormater.format(date), lastdays);
         return result.map(EntityRate::getRate);
     }
 
