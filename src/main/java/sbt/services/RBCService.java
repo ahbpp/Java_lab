@@ -30,13 +30,11 @@ public class RBCService {
     Utils utils;
     @Autowired private RateCrudRepository rateCrudRepository;
 
-    @Transactional
     public void saveRate(Double rate, int days) {
         Date date = Calendar.getInstance().getTime();
         rateCrudRepository.save(new EntityRate(rate, date, days));
     }
 
-    @Transactional
     public double getMaxRateForPeriod(int lastdays, ResponserToRBC responserToRBC) {
         Optional<Double> base_result = getTodayRate(lastdays);
         System.out.println(base_result);

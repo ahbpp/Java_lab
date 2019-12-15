@@ -1,4 +1,4 @@
-package sbt;
+package sbt.services;
 
 import org.junit.Before;
 import org.junit.Test;
