@@ -32,7 +32,7 @@ public class RBCController {
     @ResponseBody
     public Viewer index(@RequestParam("days") int days) {
         Viewer viewer = new Viewer();
-        viewer.value = service.getMaxRateForPeriod(days, responserToRBC);
+        viewer.setValue(service.getMaxRateForPeriod(days, responserToRBC));
         return viewer;
     }
 
@@ -42,7 +42,7 @@ public class RBCController {
     public Viewer item(@RequestParam("date") String date) {
         // "yyyy-MM-dd"
         Viewer viewer = new Viewer();
-        viewer.value = weatherService.getMaxTemperatureFromDate(date, responserToWheather);
+        viewer.setValue(weatherService.getMaxTemperatureFromDate(date, responserToWheather));
         return viewer;
     }
 
@@ -50,7 +50,7 @@ public class RBCController {
     @ResponseBody
     public Viewer predict(@RequestParam("days") int days) {
         Viewer viewer = new Viewer();
-        viewer.value = predictService.getPredictDollarToday(responserToRBC, responserToWheather, days);
+        viewer.setValue(predictService.getPredictDollarToday(responserToRBC, responserToWheather, days));
         return viewer;
     }
 }

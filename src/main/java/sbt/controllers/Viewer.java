@@ -1,6 +1,9 @@
 package sbt.controllers;
 
 public class Viewer {
-    public Double value;
+    private Double value;
+    public void setValue(Double value) {
+        this.value = value;
+    }
 }
 

@@ -44,12 +44,8 @@ public class WeatherService {
                     Double temperature = maxTempreture.getTemperature();
                     ans.add(temperature);
                 }
-            } catch (JsonParseException e) {
-                e.printStackTrace();
-            } catch (JsonMappingException e) {
-                e.printStackTrace();
             } catch (IOException e) {
-                e.printStackTrace();
+//                e.printStackTrace();
             }
         }
         return ans;
