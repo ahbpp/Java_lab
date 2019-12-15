@@ -8,13 +8,13 @@ import org.springframework.web.client.RestTemplate;
 
 @Service
 public class ResponserToWheather {
-    final String TOKEN = "c27fb993535ea9bcd42a6a2c46d506bd";
+    final static String token = "c27fb993535ea9bcd42a6a2c46d506bd";
 
     @Autowired
     private RestTemplate restTemplateWhether;
 
     public String getResponse(long time) {
-        String url = "https://api.darksky.net/forecast/" + TOKEN + "/55.3601,37.5589," + time +
+        String url = "https://api.darksky.net/forecast/" + token + "/55.3601,37.5589," + time +
                 "?exclude=currently&units=auto";
         ResponseEntity<String> response = restTemplateWhether.getForEntity(url, String.class);
         if (response.getStatusCode() == HttpStatus.NOT_FOUND) {

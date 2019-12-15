@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4600f613-bb31-4f9f-9356-d7f863f986be" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/sbt/services/WeatherServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sbt/services/WeatherServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sbt/parser/Hourly.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sbt/parser/Hourly.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sbt/responsers/ResponserToWheather.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sbt/responsers/ResponserToWheather.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sbt/services/WeatherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sbt/services/WeatherService.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -12,6 +15,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="201" />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
@@ -20,8 +26,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/sbt/services/WeatherService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="515">
-              <caret line="63" column="44" selection-start-line="63" selection-start-column="44" selection-end-line="63" selection-end-column="44" />
+            <state relative-caret-position="675">
+              <caret line="62" column="44" selection-start-line="62" selection-start-column="44" selection-end-line="62" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -65,11 +71,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/sbt/services/WeatherServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-53">
+            <state relative-caret-position="282">
               <caret line="56" column="37" lean-forward="true" selection-start-line="56" selection-start-column="37" selection-end-line="56" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sbt/parser/Hourly.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -86,11 +101,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/sbt/responsers/ResponserToWheather.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+              <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -106,15 +121,6 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ServiceTest.postman_collection.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="107" column="30" lean-forward="true" selection-start-line="107" selection-start-column="30" selection-end-line="107" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -182,8 +188,9 @@
         <option value="$PROJECT_DIR$/src/main/java/sbt/controllers/RBCController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/ServiceTest.postman_collection.json" />
-        <option value="$PROJECT_DIR$/src/main/java/sbt/responsers/ResponserToWheather.java" />
         <option value="$PROJECT_DIR$/src/test/java/sbt/services/WeatherServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sbt/parser/Hourly.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sbt/responsers/ResponserToWheather.java" />
       </list>
     </option>
   </component>
@@ -264,6 +271,15 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="sbt" type="462c0819:PsiDirectoryNode" />
               <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gs-spring-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ru.sbt.prac.lab-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sbt" type="462c0819:PsiDirectoryNode" />
+              <item name="parser" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gs-spring-boot" type="b2602c69:ProjectViewProjectNode" />
@@ -555,14 +571,11 @@
       <workItem from="1575220058439" duration="5092000" />
       <workItem from="1575538761465" duration="10317000" />
       <workItem from="1576152711166" duration="516000" />
-      <workItem from="1576418145610" duration="3594000" />
+      <workItem from="1576418145610" duration="4013000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RBCServiceTest_getMaxRateForPeriod - 2019.12.05 at 15h 13m 29s.xml">
-      <configuration name="RBCServiceTest.getMaxRateForPeriod" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="sbt_in_gs-spring-boot - 2019.12.15 at 17h 27m 41s.xml">
       <configuration name="sbt in gs-spring-boot" configurationId="JUnit" />
     </history-entry>
@@ -590,9 +603,12 @@
     <history-entry file="WeatherServiceTest - 2019.12.15 at 21h 49m 47s.xml">
       <configuration name="WeatherServiceTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="WeatherServiceTest - 2019.12.15 at 21h 51m 12s.xml">
+      <configuration name="WeatherServiceTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53837000" />
+    <option name="totallyTimeSpent" value="54256000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -605,8 +621,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="23" width="1440" height="811" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2746781" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2746781" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -616,13 +633,13 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.49652296" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.49652296" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32777777" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32777777" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.2433936" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.2433936" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32891566" />
@@ -650,7 +667,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/gs_spring_boot$WeatherServiceTest.ic" NAME="WeatherServiceTest Coverage Results" MODIFIED="1576434828790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/gs_spring_boot$WeatherServiceTest.ic" NAME="WeatherServiceTest Coverage Results" MODIFIED="1576435854852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>sbt.services.*</FILTER>
     </SUITE>
   </component>
@@ -822,23 +839,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sbt/services/WeatherService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="63" column="44" selection-start-line="63" selection-start-column="44" selection-end-line="63" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sbt/responsers/ResponserToWheather.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sbt/responsers/ResponserToRBC.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
@@ -885,8 +885,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/sbt/services/WeatherServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-53">
+        <state relative-caret-position="282">
           <caret line="56" column="37" lean-forward="true" selection-start-line="56" selection-start-column="37" selection-end-line="56" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sbt/parser/Hourly.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sbt/services/WeatherService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="62" column="44" selection-start-line="62" selection-start-column="44" selection-end-line="62" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sbt/responsers/ResponserToWheather.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

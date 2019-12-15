@@ -4,12 +4,9 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Hourly {
-    private Data hourly = null;
+    private Data data = null;
 
-    public Data getHourly() {
-        return this.hourly;
-    }
-    public void setHourly(Data hourly){
-        this.hourly = hourly;
+    public Data getData() {
+        return this.data;
     }
 }
