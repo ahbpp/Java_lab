@@ -490,7 +490,7 @@
       <workItem from="1575220058439" duration="5092000" />
       <workItem from="1575538761465" duration="10317000" />
       <workItem from="1576152711166" duration="516000" />
-      <workItem from="1576418145610" duration="7153000" />
+      <workItem from="1576418145610" duration="7441000" />
     </task>
     <servers />
   </component>
@@ -527,7 +527,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57396000" />
+    <option name="totallyTimeSpent" value="57684000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -540,9 +540,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="43" y="23" width="1440" height="811" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2746781" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2746781" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -552,13 +551,13 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32962447" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31571627" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5910987" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32777777" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32777777" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.35605007" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.35605007" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32823366" />
