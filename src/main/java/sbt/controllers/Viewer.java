@@ -5,4 +5,7 @@ public class Viewer {
     public void setValue(Double value) {
         this.value = value;
     }
+    public Double getValue() {
+        return this.value;
+    }
 }

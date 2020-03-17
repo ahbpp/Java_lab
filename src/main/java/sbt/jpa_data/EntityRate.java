@@ -9,16 +9,12 @@ import java.util.Date;
 @Entity
 @Table(name="Dollar")
 public class EntityRate {
-
-
     @Id
     @GeneratedValue(strategy= GenerationType.AUTO)
     private Long id;
     private Double rate;
     private int days;
     private String date;
-
-    public  EntityRate() {}
 
     public EntityRate(Double rate, Date date, int days) {
         this.rate = rate;

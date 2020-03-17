@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="gs-spring-boot" target="9" />
+      <module name="gs-spring-boot" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

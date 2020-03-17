@@ -28,7 +28,7 @@ public class RBCController {
     @Autowired
     private PredictService predictService;
 
-    @RequestMapping(value = "/rbc", method = RequestMethod.POST)
+    @RequestMapping(value = "/rbc", method = RequestMethod.GET)
     @ResponseBody
     public Viewer index(@RequestParam("days") int days) {
         Viewer viewer = new Viewer();

@@ -1,0 +1,16 @@
+sbt/jpa_data/EntityRate.class
+sbt/services/RBCService.class
+sbt/utils/MSR.class
+sbt/jpa_data/RateCrudRepository.class
+sbt/parser/MaxTempreture.class
+sbt/controllers/RBCController.class
+sbt/parser/Data.class
+sbt/services/PredictService.class
+sbt/responsers/ResponserToRBC.class
+sbt/utils/Utils.class
+sbt/services/WeatherService.class
+sbt/responsers/ResponserToWheather.class
+sbt/parser/Daily.class
+sbt/controllers/Viewer.class
+sbt/Application.class
+sbt/parser/Hourly.class
